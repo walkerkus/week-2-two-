@@ -1,0 +1,111 @@
+
+.home-link {
+    font-size: 20px;
+}
+
+.home-link a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.home-link a:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.project-link {
+    font-size: 20px;
+}
+
+.project-link a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.project-link a:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+.btn-contact {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-contact:hover{
+    background-color: orangered;
+}
+
+.burger-list {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+
+.container-burger a {
+    border: 3px solid black;
+    width: 100%;
+    text-align: center;
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.nav_button {
+    display: none;
+}
+
+.info_diri{
+    display: flex;
+    background-color: white;
+    width: 700px;
+   margin: 90px auto;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 10px 0 5px black;
+}
+
+.info_diri_a {
+    width: 400px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .nav_hp {
+        display: none;
+    }
+    
+    .nav_button {
+        display: flex;
+    }
+
+    .info_diri {
+        width: 350px;
+        border: 3px solid black;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .info_diri_a {
+        width: 340px;
+
+    }
+    
+}
